@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Beranda"
+            android:textStyle="bold"
+            />
+        <item
+            android:id="@+id/nav_menu1"
+            android:icon="@drawable/ic_daftartemuan"
+            android:title="MR Keuangan"
+            android:textStyle="bold"
+            />
+
+
+        <item
+            android:id="@+id/nav_menu1_option1"
+            android:title="  •  Perjalanan Dinas"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu2"
+            android:icon="@drawable/risk"
+            android:title="MR Barang Milik Negara"
+            android:textStyle="bold"/>
+        <item
+            android:id="@+id/nav_menu2_option1"
+            android:title="  •  Stock Opname"
+            android:visible="false"
+            android:textStyle="normal"
+            />
+        <item
+            android:id="@+id/nav_menu2_option2"
+            android:title="  •  Identifikasi BMN"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu2_option3"
+            android:title="  •  Perencanaan BMN"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu2_option4"
+            android:title="  •  Pengamanan BMN"
+            android:visible="false"
+            android:textStyle="normal"/>
+
+        <item
+            android:id="@+id/nav_menu3"
+            android:icon="@drawable/ic_kepegawaian"
+            android:title="MR Kepegawaian"
+            android:textStyle="bold"/>
+        <item
+            android:id="@+id/nav_menu3_option1"
+            android:title="  •  Sasaran Kinerja Pegawai"
+            android:visible="false"
+            android:textStyle="normal"/>
+
+
+        <item
+            android:id="@+id/nav_menu3_option2"
+            android:title="  •  Administrasi Kehadiran"
+            android:visible="false"
+            android:textStyle="normal"/>
+
+        <item
+            android:id="@+id/nav_menu4"
+            android:icon="@drawable/ic_asesmen"
+            android:title="MR Kepatuhan Intern"
+            android:textStyle="bold"/>
+        <item
+            android:id="@+id/nav_menu4_option1"
+            android:title="  •  Bukti Dukung ZI"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu4_option2"
+            android:title="  •  Penerapan MR"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu4_option3"
+            android:title="  •  Pembaharuan SK Balai"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu5"
+            android:icon="@drawable/ic_saranaprasarana"
+            android:title="MR Sarana dan Prasarana"
+            android:textStyle="bold"/>
+        <item
+            android:id="@+id/nav_menu5_option1"
+            android:title="  •  Risiko Kebakaran Gedung"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu6"
+            android:icon="@drawable/ic_peserta"
+            android:title="MR Pelatihan"
+            android:textStyle="bold"/>
+        <item
+            android:id="@+id/nav_menu6_option1"
+            android:title="  •  Kualifikasi Peserta"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu6_option2"
+            android:title="  •  Keterlambatan Surat Penetapan"
+            android:visible="false"
+            android:textStyle="normal"/>
+
+        <item
+            android:id="@+id/nav_menu6_option3"
+            android:title="  •  Pengunduran Diri Peserta"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu6_option4"
+            android:title="  •  Prosedur Kerjasama"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu6_option5"
+            android:title="  •  Penilaian Pelatihan"
+            android:visible="false"
+            android:textStyle="normal"/>
+
+        <item
+            android:id="@+id/nav_menu6_option6"
+            android:title="  •  Prosedur Bangkom"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu7"
+            android:icon="@drawable/ic_satuankerja"
+            android:title="MR Satuan Kerja"
+            android:textStyle="bold"/>
+        <item
+            android:id="@+id/nav_menu7_option1"
+            android:title="  •  Gratifikasi"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu7_option2"
+            android:title="  •  Penentuan Rekanan"
+            android:visible="false"
+            android:textStyle="normal"/>
+
+        <item
+            android:id="@+id/nav_menu7_option3"
+            android:title="  •  Administrasi Kontrak"
+            android:visible="false"
+            android:textStyle="normal"/>
+
+        <item
+            android:id="@+id/nav_menu7_option4"
+            android:title="  •  Pengelolaan Anggaran"
+            android:visible="false"
+            android:textStyle="normal"/>
+
+
+        <item
+            android:id="@+id/nav_menu7_option5"
+            android:title="  •  Proses Rekrutment OS"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu8"
+            android:icon="@drawable/ic_satuankerja"
+            android:title="MR Gratifikasi"
+            android:textStyle="bold"/>
+        <item
+            android:id="@+id/nav_menu8_option1"
+            android:title="  •  Gratifikasi"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu8_option2"
+            android:title="  •  Penentuan Rekanan"
+            android:visible="false"
+            android:textStyle="normal"/>
+
+
+    </group>
+
+</menu>
+

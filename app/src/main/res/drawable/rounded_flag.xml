@@ -1,0 +1,10 @@
+<!-- ras/drawable/rounded_flag.xml-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFC107" /> <!-- Warna latar belakang -->
+    <corners android:radius="16dp" /> <!-- Radius untuk rounded corner -->
+    <padding
+        android:left="10dp"
+        android:top="4dp"
+        android:right="10dp"
+        android:bottom="4dp" /> <!-- Padding untuk teks di dalamnya -->
+</shape>

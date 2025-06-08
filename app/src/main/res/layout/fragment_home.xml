@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center" >
+                        <TextView
+                            android:text="Continuous Monitoring on Risk Controlling\nBalai Pengembangan Kompetensi PUPR\nWilayah VI Surabaya"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="1dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="17sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/imageContainer"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center" >
+
+                        <ImageView
+                            android:id="@+id/fotodiklat"
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/foto_kantor_bapekomvi"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center" >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Selamat Datang"
+                            android:textStyle="bold"
+                            android:textSize="24sp" />
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/tvJustified"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="20dp"
+                            android:justificationMode="inter_word"
+                            android:text="\t\t\t\t\tBalai Pengembangan Kompetensi PUPR Wilayah VI Surabaya merupakan salah satu unit kerja dibawah Badan Pengembangan Sumber Daya Manusia Kementerian Pekerjaan Umum dan Perumahan Rakyat yang memiliki tugas melaksanakan pengembangan kompetensi bidang pekerjaan umum dan perumahan rakyat.
+                            \n\n\t\t\t\t\tSebagai salah satu bentuk Pengendalian, Bapekom PUPR Wilayah VI Surabaya juga melakukan kegiatan Pengelolaan Risiko yang meliputi tahapan penentuan risk register yang kemudian dilakukan pengendalian risiko berdasarkan tabel risiko yang telah disusun pada awal tahun.
+                        "
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center" >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:text="Balai Pengembangan Kompetensi PUPR Wilayah VI Surabaya"
+                            android:textStyle="bold"
+                            android:textSize="22sp" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:id="@+id/bpsdmlogo"
+                            android:layout_width="394dp"
+                            android:layout_height="240dp"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/map_bapekomvi" />
+                    </LinearLayout>
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="fill_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginLeft="5dp"-->
+<!--                        android:layout_marginRight="5dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:gravity="center" >-->
+<!--                        <TextView-->
+<!--                            android:autoLink="all"-->
+<!--                            android:text="Lihat Lokasi Klik Link di Bawah: \n https://maps.app.goo.gl/8ezofuDKPSLiVysU7"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:gravity="center"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textSize="16sp"/>-->
+
+
+<!--                    </LinearLayout>-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center" >
+
+                        <!-- Material Button -->
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/home_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="40dp"
+                            android:text="Lihat Lokasi"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            app:cornerRadius="25dp"
+                            android:padding="12dp"
+                            app:iconPadding="10dp"
+                        android:textAllCaps="false"
+                        app:backgroundTint="@color/blue" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <!-- Lokasi -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+
+                            android:layout_marginTop="5dp">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_marginEnd="10dp"
+                                android:src="@drawable/ic_location" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jalan Gayung Kebonsari No.48\nSurabaya, Jawa Timur 60235"
+                                android:textSize="17sp" />
+                        </LinearLayout>
+
+                        <!-- Website -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_marginEnd="10dp"
+                                android:src="@drawable/ic_website" /> <!-- Ganti dengan ikon website -->
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="www.bapekom6surabaya.com"
+                                android:textSize="17sp" />
+                        </LinearLayout>
+
+                        <!-- Email -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_marginEnd="10dp"
+                                android:src="@drawable/ic_email" /> <!-- Ganti dengan ikon email -->
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="bapekom6surabaya@pu.go.id"
+                                android:textSize="17sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center" >
+
+                        <TextView
+
+                            android:layout_width="fill_parent"
+                            android:layout_height="50dp"
+                            android:textColor="@color/blue"
+                            android:gravity="center"
+                            android:text="© Bapekom VI Surabaya"
+                            android:background="@color/gold"
+                            android:textSize="18sp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
