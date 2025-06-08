@@ -44,11 +44,11 @@ class Menu8Option2Fragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.menu8_option2, container, false)
 
-        val imageViewGif1 = view.findViewById<ImageView>(R.id.imageViewGif7_1)
-        val imageViewGif2 = view.findViewById<ImageView>(R.id.imageViewGif7_2)
-        val imageViewGif3 = view.findViewById<ImageView>(R.id.imageViewGif7_3)
-        val imageViewGif4 = view.findViewById<ImageView>(R.id.imageViewGif7_4)
-        val imageViewGif5 = view.findViewById<ImageView>(R.id.imageViewGif7_5)
+        val imageViewGif1 = view.findViewById<ImageView>(R.id.imageViewGif7_6)
+        val imageViewGif2 = view.findViewById<ImageView>(R.id.imageViewGif7_7)
+        val imageViewGif3 = view.findViewById<ImageView>(R.id.imageViewGif7_8)
+        val imageViewGif4 = view.findViewById<ImageView>(R.id.imageViewGif7_9)
+        val imageViewGif5 = view.findViewById<ImageView>(R.id.imageViewGif7_10)
 
         Glide.with(this)
             .asGif()

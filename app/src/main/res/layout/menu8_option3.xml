@@ -55,7 +55,7 @@
                         <!-- Subjudul dengan background rounded -->
                         <TextView
                             android:id="@+id/tvSubtitle"
-                            android:text="Pentuan Rekanan"
+                            android:text="Penilain Pelatihan"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center"

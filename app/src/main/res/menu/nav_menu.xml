@@ -185,6 +185,26 @@
             android:title="  •  Penentuan Rekanan"
             android:visible="false"
             android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu8_option3"
+            android:title="  •  Penilaian Pelatihan"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu9"
+            android:icon="@drawable/ic_satuankerja"
+            android:title="MR Benturan Kepentingan"
+            android:textStyle="bold"/>
+        <item
+            android:id="@+id/nav_menu9_option1"
+            android:title="  •  Rekanan Bidang Non Kontruksi"
+            android:visible="false"
+            android:textStyle="normal"/>
+        <item
+            android:id="@+id/nav_menu9_option2"
+            android:title="  •  Rekanan Bidang Kontruksi"
+            android:visible="false"
+            android:textStyle="normal"/>
 
 
     </group>
