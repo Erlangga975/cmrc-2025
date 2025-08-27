@@ -125,11 +125,11 @@
             android:title="  •  Prosedur Kerjasama"
             android:visible="false"
             android:textStyle="normal"/>
-        <item
-            android:id="@+id/nav_menu6_option5"
-            android:title="  •  Penilaian Pelatihan"
-            android:visible="false"
-            android:textStyle="normal"/>
+<!--        <item-->
+<!--            android:id="@+id/nav_menu6_option5"-->
+<!--            android:title="  •  Penilaian Pelatihan"-->
+<!--            android:visible="false"-->
+<!--            android:textStyle="normal"/>-->
 
         <item
             android:id="@+id/nav_menu6_option6"
@@ -141,16 +141,16 @@
             android:icon="@drawable/ic_satuankerja"
             android:title="MR Satuan Kerja"
             android:textStyle="bold"/>
-        <item
-            android:id="@+id/nav_menu7_option1"
-            android:title="  •  Gratifikasi"
-            android:visible="false"
-            android:textStyle="normal"/>
-        <item
-            android:id="@+id/nav_menu7_option2"
-            android:title="  •  Penentuan Rekanan"
-            android:visible="false"
-            android:textStyle="normal"/>
+<!--        <item-->
+<!--            android:id="@+id/nav_menu7_option1"-->
+<!--            android:title="  •  Gratifikasi"-->
+<!--            android:visible="false"-->
+<!--            android:textStyle="normal"/>-->
+<!--        <item-->
+<!--            android:id="@+id/nav_menu7_option2"-->
+<!--            android:title="  •  Penentuan Rekanan"-->
+<!--            android:visible="false"-->
+<!--            android:textStyle="normal"/>-->
 
         <item
             android:id="@+id/nav_menu7_option3"
@@ -160,7 +160,7 @@
 
         <item
             android:id="@+id/nav_menu7_option4"
-            android:title="  •  Pengelolaan Anggaran"
+            android:title="  •  Perencanaan Pengangaran BMN"
             android:visible="false"
             android:textStyle="normal"/>
 

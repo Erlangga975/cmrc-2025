@@ -103,12 +103,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                     menu.findItem(R.id.nav_menu6_option2).isVisible = false
                     menu.findItem(R.id.nav_menu6_option3).isVisible = false
                     menu.findItem(R.id.nav_menu6_option4).isVisible = false
-                    menu.findItem(R.id.nav_menu6_option5).isVisible = false
+//                    menu.findItem(R.id.nav_menu6_option5).isVisible = false
                     menu.findItem(R.id.nav_menu6_option6).isVisible = false
                 }
                 R.id.nav_menu7 -> {
-                    menu.findItem(R.id.nav_menu7_option1).isVisible = false
-                    menu.findItem(R.id.nav_menu7_option2).isVisible = false
+                    //menu.findItem(R.id.nav_menu7_option1).isVisible = false
+                    //menu.findItem(R.id.nav_menu7_option2).isVisible = false
                     menu.findItem(R.id.nav_menu7_option3).isVisible = false
                     menu.findItem(R.id.nav_menu7_option4).isVisible = false
                     menu.findItem(R.id.nav_menu7_option5).isVisible = false
@@ -170,12 +170,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                             menu.findItem(R.id.nav_menu6_option2).isVisible = true
                             menu.findItem(R.id.nav_menu6_option3).isVisible = true
                             menu.findItem(R.id.nav_menu6_option4).isVisible = true
-                            menu.findItem(R.id.nav_menu6_option5).isVisible = true
+                            //menu.findItem(R.id.nav_menu6_option5).isVisible = true
                             menu.findItem(R.id.nav_menu6_option6).isVisible = true
                         }
                         R.id.nav_menu7 -> {
-                            menu.findItem(R.id.nav_menu7_option1).isVisible = true
-                            menu.findItem(R.id.nav_menu7_option2).isVisible = true
+//                            menu.findItem(R.id.nav_menu7_option1).isVisible = true
+//                            menu.findItem(R.id.nav_menu7_option2).isVisible = true
                             menu.findItem(R.id.nav_menu7_option3).isVisible = true
                             menu.findItem(R.id.nav_menu7_option4).isVisible = true
                             menu.findItem(R.id.nav_menu7_option5).isVisible = true
@@ -234,23 +234,23 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 val subItem2 = menu.findItem(R.id.nav_menu6_option2)
                 val subItem3 = menu.findItem(R.id.nav_menu6_option3)
                 val subItem4 = menu.findItem(R.id.nav_menu6_option4)
-                val subItem5 = menu.findItem(R.id.nav_menu6_option5)
+              //  val subItem5 = menu.findItem(R.id.nav_menu6_option5)
                 val subItem6 = menu.findItem(R.id.nav_menu6_option6)
                 subItem1.isVisible = !subItem1.isVisible
                 subItem2.isVisible = !subItem2.isVisible
                 subItem3.isVisible = !subItem3.isVisible
                 subItem4.isVisible = !subItem4.isVisible
-                subItem5.isVisible = !subItem5.isVisible
+               // subItem5.isVisible = !subItem5.isVisible
                 subItem6.isVisible = !subItem6.isVisible
             }
             R.id.nav_menu7 -> {
-                val subItem1 = menu.findItem(R.id.nav_menu7_option1)
-                val subItem2 = menu.findItem(R.id.nav_menu7_option2)
+                //val subItem1 = menu.findItem(R.id.nav_menu7_option1)
+                //val subItem2 = menu.findItem(R.id.nav_menu7_option2)
                 val subItem3 = menu.findItem(R.id.nav_menu7_option3)
                 val subItem4 = menu.findItem(R.id.nav_menu7_option4)
                 val subItem5 = menu.findItem(R.id.nav_menu7_option5)
-                subItem1.isVisible = !subItem1.isVisible
-                subItem2.isVisible = !subItem2.isVisible
+                //subItem1.isVisible = !subItem1.isVisible
+                //subItem2.isVisible = !subItem2.isVisible
                 subItem3.isVisible = !subItem3.isVisible
                 subItem4.isVisible = !subItem4.isVisible
                 subItem5.isVisible = !subItem5.isVisible
@@ -371,12 +371,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                     .commit()
                 closeDrawer()
             }
-            R.id.nav_menu6_option5 -> {
-                supportFragmentManager.beginTransaction()
-                    .replace(R.id.fragment_container, Menu6Option5Fragment())
-                    .commit()
-                closeDrawer()
-            }
+//            R.id.nav_menu6_option5 -> {
+//                supportFragmentManager.beginTransaction()
+//                    .replace(R.id.fragment_container, Menu6Option5Fragment())
+//                    .commit()
+//                closeDrawer()
+//            }
 
             R.id.nav_menu6_option6 -> {
                 supportFragmentManager.beginTransaction()
@@ -384,19 +384,19 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                     .commit()
                 closeDrawer()
             }
-
-            R.id.nav_menu7_option1 -> {
-                supportFragmentManager.beginTransaction()
-                    .replace(R.id.fragment_container, Menu7Fragment())
-                    .commit()
-                closeDrawer()
-            }
-            R.id.nav_menu7_option2 -> {
-                supportFragmentManager.beginTransaction()
-                    .replace(R.id.fragment_container, Menu7Option2Fragment())
-                    .commit()
-                closeDrawer()
-            }
+//
+//            R.id.nav_menu7_option1 -> {
+//                supportFragmentManager.beginTransaction()
+//                    .replace(R.id.fragment_container, Menu7Fragment())
+//                    .commit()
+//                closeDrawer()
+//            }
+//            R.id.nav_menu7_option2 -> {
+//                supportFragmentManager.beginTransaction()
+//                    .replace(R.id.fragment_container, Menu7Option2Fragment())
+//                    .commit()
+//                closeDrawer()
+//            }
             R.id.nav_menu7_option3 -> {
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.fragment_container, Menu7Option3Fragment())

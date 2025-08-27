@@ -111,7 +111,7 @@
                                 android:background="@drawable/image_background"
                                 android:elevation="10dp"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/irham2" />
+                                android:src="@drawable/rahmann" />
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
@@ -126,7 +126,7 @@
                                     android:layout_marginLeft="10dp"
                                     android:layout_marginTop="10dp"
                                     android:layout_marginRight="5dp"
-                                    android:text="Nama : Irham Ramdhan L., S.T."
+                                    android:text="Nama : Muhammad Rahman.,S.T.,M.T."
                                     android:textColor="@color/gold"
                                     android:textSize="13sp"
                                     android:textStyle="bold" />
@@ -137,7 +137,7 @@
                                     android:layout_marginLeft="10dp"
                                     android:layout_marginTop="10dp"
                                     android:layout_marginRight="5dp"
-                                    android:text="NIP      : 198307172023211021"
+                                    android:text="NIP      : 197511292005011005"
                                     android:textColor="@color/gold"
                                     android:textSize="13sp"
                                     android:textStyle="bold" />

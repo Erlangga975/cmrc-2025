@@ -128,7 +128,7 @@ class Menu7Option4Fragment : Fragment() {
 
         // link bukti pendendalian
         buttons[2].setOnClickListener {
-            val uri = Uri.parse("https://bit.ly/42pGWSG")
+            val uri = Uri.parse("https://bit.ly/4liDKyN")
             startActivity(Intent(Intent.ACTION_VIEW, uri))
         }
 

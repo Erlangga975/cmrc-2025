@@ -111,7 +111,7 @@
                                 android:background="@drawable/image_background"
                                 android:elevation="10dp"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/farisah2" />
+                                android:src="@drawable/febii" />
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
@@ -126,7 +126,7 @@
                                     android:layout_marginLeft="10dp"
                                     android:layout_marginTop="10dp"
                                     android:layout_marginRight="5dp"
-                                    android:text="Nama : Farisah Arum R., S.ST., M.M."
+                                    android:text="Nama : Febby Dian Rachmawati, S.S"
                                     android:textColor="@color/gold"
                                     android:textSize="12sp"
                                     android:textStyle="bold" />
@@ -137,7 +137,7 @@
                                     android:layout_marginLeft="10dp"
                                     android:layout_marginTop="10dp"
                                     android:layout_marginRight="5dp"
-                                    android:text="NIP      : 198908242020122003"
+                                    android:text="NIP      : BPWS12202124021979001"
                                     android:textColor="@color/gold"
                                     android:textSize="12sp"
                                     android:textStyle="bold" />

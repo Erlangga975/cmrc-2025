@@ -122,7 +122,7 @@ class Menu7Option2Fragment : Fragment() {
         }
 
         buttons[2].setOnClickListener {
-            val uri = Uri.parse("https://bit.ly/41QxqaY")
+            val uri = Uri.parse("https://bit.ly/4nF6GTk")
             startActivity(Intent(Intent.ACTION_VIEW, uri))
         }
 

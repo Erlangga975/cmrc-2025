@@ -110,7 +110,7 @@
                                 android:background="@drawable/image_background"
                                 android:elevation="10dp"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/samudah2" />
+                                android:src="@drawable/astutikk" />
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
@@ -125,7 +125,7 @@
                                     android:layout_marginLeft="10dp"
                                     android:layout_marginTop="10dp"
                                     android:layout_marginRight="5dp"
-                                    android:text="Nama : Samudah"
+                                    android:text="Nama : Sri Astutik, S.M."
                                     android:textColor="@color/gold"
                                     android:textSize="13sp"
                                     android:textStyle="bold" />
@@ -136,7 +136,7 @@
                                     android:layout_marginLeft="10dp"
                                     android:layout_marginTop="10dp"
                                     android:layout_marginRight="5dp"
-                                    android:text="NIP      : 197204142007012005"
+                                    android:text="NIP      : 198206272024212005"
                                     android:textColor="@color/gold"
                                     android:textSize="13sp"
                                     android:textStyle="bold" />

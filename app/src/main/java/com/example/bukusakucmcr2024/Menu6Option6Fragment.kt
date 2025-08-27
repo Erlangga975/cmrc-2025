@@ -123,7 +123,7 @@ class Menu6Option6Fragment : Fragment() {
         }
         // link bukti pengendalian
         buttons[2].setOnClickListener {
-            val uri = Uri.parse("https://bit.ly/kepelatihan_prosedurBangkom_buktiPengendalian")
+            val uri = Uri.parse("https://bit.ly/44jPnzx")
             startActivity(Intent(Intent.ACTION_VIEW, uri))
         }
 

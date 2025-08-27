@@ -114,7 +114,7 @@
                                 android:background="@drawable/image_background"
                                 android:elevation="10dp"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ivo2" />
+                                android:src="@drawable/sarah" />
 
 
                             <LinearLayout
@@ -130,7 +130,7 @@
                                     android:layout_marginLeft="10dp"
                                     android:layout_marginTop="10dp"
                                     android:layout_marginRight="5dp"
-                                    android:text="Nama : Ivo Fauziah, S.E., M.T."
+                                    android:text="Nama : Novriana Sarah, S.Psi."
                                     android:textColor="@color/gold"
                                     android:textSize="13sp"
                                     android:textStyle="bold" />
@@ -141,7 +141,7 @@
                                     android:layout_marginLeft="10dp"
                                     android:layout_marginTop="10dp"
                                     android:layout_marginRight="5dp"
-                                    android:text="NIP      : 198606172010122007"
+                                    android:text="NIP      : 197511172011012003"
                                     android:textColor="@color/gold"
                                     android:textSize="13sp"
                                     android:textStyle="bold" />

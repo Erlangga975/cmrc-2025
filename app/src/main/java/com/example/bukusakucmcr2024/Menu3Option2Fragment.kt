@@ -123,7 +123,7 @@ class Menu3Option2Fragment : Fragment() {
         }
         // link bukti pengendalian
         buttons[2].setOnClickListener {
-            val uri = Uri.parse("https://bit.ly/kepagawaian_administrasiKehadiran_buktiPengendalian")
+            val uri = Uri.parse("https://bit.ly/4nC0z1R")
             startActivity(Intent(Intent.ACTION_VIEW, uri))
         }
         // link jadwal pengendalian
